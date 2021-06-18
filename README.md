@@ -14,13 +14,15 @@ This section should help you get started with the project. If you have any quest
 
 ### Installing/Setting
 
-Edit file: `main.cpp`
+- Upload the `tft/dash-3.5.tft` file to your Nextion display.
+
+- Edit file: `main.cpp`
 ```c++
 const char* ssid = ""; //Enter SSID
 const char* password = ""; //Enter Password
 ```
 
-Edit file: `screen_header.h`
+- Edit file: `screen_header.h`
 ```c++
 const int SPEAKER = 32; // PIN BUZZER
 String TOKEN_QRCODE = "Xipy6LQYz8ELjtqGr9YEaZU5spid8K8tjx"; // You DASH Address
